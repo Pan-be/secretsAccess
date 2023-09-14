@@ -35,7 +35,7 @@ app.post('/check', (req, res) => {
     if (isUserAuth) {
         res.sendFile(__dirname + '/public/secret.html')
     } else {
-        res.sendFile(__dirname + '/public/secret.html')
+        res.sendFile(__dirname + '/public/index.html')
     }
 })
 
